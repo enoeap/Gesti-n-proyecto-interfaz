@@ -150,4 +150,4 @@ Este proyecto está licenciado bajo la Licencia MIT - vea el archivo LICENSE par
 
 ## Contacto
 
-Para preguntas o soporte, contacte a: [su-email@ejemplo.com]
+Para preguntas o soporte, contacte a: [enoeap@gmail.com]
