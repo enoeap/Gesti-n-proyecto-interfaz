@@ -1,0 +1,78 @@
+# Sistema de Gestión Organizacional de Proyectos (OPM) y PMO
+
+## Instrucciones de Instalación y Uso
+
+Este documento contiene las instrucciones básicas para instalar, configurar y utilizar el Sistema de Gestión Organizacional de Proyectos.
+
+### Requisitos del Sistema
+
+- JDK 17 o superior
+- Maven 3.8 o superior
+- Navegador web moderno (Chrome, Firefox, Edge)
+- 2GB de RAM mínimo
+- 500MB de espacio en disco
+
+### Instalación
+
+1. Descomprima el archivo ZIP en una ubicación de su preferencia
+2. Abra una terminal y navegue hasta la carpeta del proyecto
+3. Ejecute el siguiente comando para compilar y ejecutar la aplicación:
+
+```
+mvn spring-boot:run
+```
+
+4. Espere a que la aplicación se inicie completamente (verá un mensaje indicando que la aplicación está ejecutándose)
+5. Abra su navegador y acceda a: http://localhost:8080
+
+### Credenciales de Acceso
+
+- Usuario: admin
+- Contraseña: admin
+
+### Manejo en GitHub
+
+Si desea gestionar este proyecto en GitHub:
+
+1. Cree un nuevo repositorio en GitHub
+2. Inicialice Git en la carpeta del proyecto:
+   ```
+   git init
+   ```
+3. Añada los archivos al repositorio:
+   ```
+   git add .
+   ```
+4. Realice el primer commit:
+   ```
+   git commit -m "Versión inicial del Sistema de Gestión de Proyectos"
+   ```
+5. Conecte su repositorio local con GitHub:
+   ```
+   git remote add origin https://github.com/su-usuario/sistema-gestion-proyectos.git
+   ```
+6. Suba los cambios:
+   ```
+   git push -u origin master
+   ```
+
+### Características Principales
+
+- Frontend moderno desarrollado con Vaadin para Java 2025
+- Backend actualizado a Spring Boot 3.5
+- Dashboard interactivo con estadísticas de proyectos
+- Gestión completa de proyectos, actas de constitución y evaluaciones
+- Generación de documentos y reportes
+- API REST documentada con OpenAPI
+
+### Solución de Problemas
+
+- Si la aplicación no inicia, verifique que el puerto 8080 esté disponible
+- Para cambiar el puerto, modifique la propiedad `server.port` en el archivo `application.properties`
+- Si tiene problemas con la base de datos, puede acceder a la consola H2 en: http://localhost:8080/h2-console
+
+### Contacto y Soporte
+
+Para obtener ayuda o reportar problemas, contacte a: [enoeap@gmail.com]
+
+Para más detalles, consulte el archivo README.md incluido en el proyecto.
